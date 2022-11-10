@@ -16,12 +16,14 @@ for (let i = 0; i < listaInvitati.length; i++){
     // controllo che la mail dell'utente sia nella lista degli invitati:
     if(userMail === listaInvitati[i]){
         console.log("benvenuto");
+        var invitati = "ci sta";
     }
 
-   
 };
 
+// se userMail non è uguale a nessuna email della lista allora accesso negato:
+if (invitati !== "ci sta"){
+    console.log("accesso negato")
+}
 
 
-
-// stampo messaggio per esito:
