@@ -18,7 +18,6 @@ myButton.addEventListener("click",
         console.log("scelta cpu ", numCpu);
         document.getElementById("numCpu").innerHTML= numCpu;
         
-
         // creo le mie condizioni:
         if (myNum > numCpu){
             document.querySelector("h3").innerHTML ="Complimenti, hai vinto!";
