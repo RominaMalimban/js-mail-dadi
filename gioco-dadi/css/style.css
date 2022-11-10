@@ -6,6 +6,8 @@
 
 body{
     font-family: sans-serif;
+    background-image: url(../img/sfondo_dadi.webp);
+    background-size: cover;
 }
 
 .container{
@@ -14,9 +16,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    /* debug */
-    min-height: 500px;
-    background-color: rgba(0, 0, 0, 0.317);
+    background-color: rgba(189, 189, 189, 0.317);
 }
 
 h1{
@@ -28,29 +28,33 @@ h1{
     width: 900px;
     display: flex;
     justify-content: space-around;
-    /* debug */
-    border: 1px solid black;
+
+}
+
+.container h2{
+    margin: 20px 0;
+    color: #000;
 }
 
 .container .card{
     width: 200px;
     height: 300px;
-    font-size:30px;
+    font-size:100px;
     line-height: 300px;
-
-    /* debug */
-    background-color: coral;
-    border: 1px solid black;
+    color: #fff;
+    background-color: black;
+   
 }
-
 
 button{
     margin-top: 20px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     font-size: 20px;
     border-radius: 10px;
+    border: 2px solid #000;
 }
 
 h3{
     margin: 20px 0 50px 0;
+    font-size: 40px;
 }
