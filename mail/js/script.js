@@ -22,7 +22,7 @@ myButton.addEventListener("click",
         let listaInvitati = ["romina@gmail.com", "pincopallo@gmail.com", "pippo@gmail.com"];
 
         for (let i = 0; i < listaInvitati.length; i++){
-            // console.log(listaInvitati[i]);
+            console.log("email:", listaInvitati[i]);
 
             // controllo che la mail dell'utente sia nella lista degli invitati:
             if(userMail === listaInvitati[i]){
