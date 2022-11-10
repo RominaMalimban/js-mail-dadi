@@ -13,6 +13,8 @@ console.log("scelta cpu ", numCpu);
 // creo le mie condizioni:
 if (myNum > numCpu){
     console.log("Complimenti, hai vinto");
+}else if(myNum == numCpu){
+    console.log("Ops, partita patta");
 }else{
     console.log("Mi dispiace, ha vinto il computer")
 }
