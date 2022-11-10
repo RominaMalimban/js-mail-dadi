@@ -42,8 +42,7 @@ h1{
     font-size:100px;
     line-height: 300px;
     color: #fff;
-    background-color: black;
-   
+    background-color: rgba(0, 0, 0, 0.929);
 }
 
 button{
